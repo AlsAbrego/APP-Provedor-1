@@ -1,0 +1,464 @@
+:root {
+  font-family: 'Roboto', sans-serif;
+}
+
+html{
+  width: 100%
+}
+
+/* ***********TAGS CSS ************ */
+body {
+  color: #757575;
+  margin: 0;
+  padding: 0;
+  min-width: 100%;
+}
+
+header {
+  align-items: center;
+  background-color: #C0273C;
+  color: #FFF;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  overflow: hidden;
+}
+
+header h1 {
+  color: #FFF;
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0;
+}
+
+h2, h3 {
+  color: #C0273C;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+}
+
+/* ***********TAG into TAGS CSS ************ */
+nav ul,
+nav li {
+  height: 50px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-right: 2.6vw;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  color: #FFF;
+  display: block;
+  font-size: 0.9rem;
+  padding: 16.5px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* *********** CLASS CSS ************ */
+.container {
+  display: flex;
+  margin: auto;
+  width: 80vw;
+}
+
+.aligment {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.aligment-2 {
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.aligment-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 45%;
+}
+
+.form-class {
+  line-height: 1.5;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.logo, .menu, .menu-footer {
+  height: 50px;
+}
+
+.logo, .menu, .ilustrative-image {
+  align-items: center;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  margin-right: 5.9vw;
+}
+
+.logo-footer {
+  align-items: center;
+  display: flex;
+  padding-left: 28.5px;
+  width: 80vw;
+}
+
+.class-section {
+  margin-top: 90px;
+}
+
+.class-footer {
+  align-items: center;
+  background: #f6d5d9;
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  /* justify-content:space-between; */
+  padding-top: 30px;
+  margin-top: 90px;
+}
+
+.personal-text-1 {
+  display: flex;
+  flex-direction: column;
+  margin: 0 15% 0 15%;
+  text-align: left;
+}
+
+.personal-text-2 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  width: 275px
+}
+
+.personal-text-3 {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: right;
+}
+
+.personal-text-4 {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  margin: auto;
+  text-align: left;
+}
+
+/* Se livrar desta classe extras */
+.extra {
+  margin-right: 100px;
+}
+
+.img-scale-1 {
+  height: 550px;
+  margin-right: 15px;
+}
+
+.img-scale-2 {
+  height: 325px;
+  padding-right: 60px;
+}
+
+.img-scale-3 {
+  height: 300px;
+}
+
+.img-scale-4 {
+  height: 400px;
+}
+
+.img-scale-5 {
+  height: 300px;
+}
+
+.img-scale-6 {
+  height: 40px;
+}
+
+.img-scale-5 {
+  height: 300px;
+  margin-right: 50px;
+}
+
+.icons-area {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 5px;
+}
+
+/* .icon{
+  height: 170px;
+} */
+
+.text-icons {
+  align-items: flex-end;
+  justify-content: center;
+  margin-top: 5px;
+  padding: 5px;
+  text-align: center;
+}
+
+.aligment-icon-1 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 35px;
+}
+
+.aligment-icon-2 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 60px;
+  text-align: center;
+}
+
+.app-1 {
+  position: relative;
+  top: 150px;
+}
+
+.app-2 {
+  position: relative;
+  right: 185px;
+  top: 15px;
+}
+
+.app-3 {
+  position: relative;
+  right: 300px;
+  top: 0px;
+}
+
+.reduced-size {
+  margin-bottom: 50px;
+  width: 60%;
+}
+
+.btn {
+  background: #C0273C;
+  background-image: -webkit-linear-gradient(top, #C0273C, #C0273C);
+  background-image: -moz-linear-gradient(top, #C0273C, #C0273C);
+  background-image: -ms-linear-gradient(top, #C0273C, #C0273C);
+  background-image: -o-linear-gradient(top, #C0273C, #C0273C);
+  background-image: linear-gradient(to bottom, #C0273C, #C0273C);
+  -webkit-border-radius: 15;
+  -moz-border-radius: 15;
+  border-radius: 15px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.menuMobile {
+  display: none;
+  height: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+  width: 20px;
+}
+
+.mm_line {
+  background-color: #FFF;
+  height: 3px;
+}
+
+/* *********** CLASS into tags CSS ************ */
+.icon img {
+  height: 77px;
+}
+
+.icon h3 {
+  color: #000;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0;
+  width: 150px;
+}
+
+.aligment-icon-1 h3 {
+  margin-left: 15px;
+}
+
+.icon p {
+  font-size: 10px;
+  width: 150px;
+}
+
+.personal-text-4 h2 {
+  margin-bottom: 20px;
+}
+
+.aligment-3 a {
+  color: #C0273C;
+}
+
+/* *********** #ID CSS ************ */
+#name, #email {
+  border: none;
+  border-bottom: 2px solid #757575;
+  font-size: 12pt;
+  height: 25px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+#message {
+  border: none;
+  border-bottom: 2px solid #757575;
+  color: #000;
+  font-size: 12pt;
+  height: 90px;
+  padding-top: 10px;
+  width: 100%;
+}
+
+/* *********** EFECTS CSS ************ */
+.btn:hover {
+  background: #f05454;
+  transform: translate(0%, 3%);
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f05454;
+  text-decoration: none;
+}
+
+.img-scale-6:hover {
+  opacity: 0.5;
+  transform: translate(-3%, -3%);
+}
+
+/* Usado aqui apenas para ilustrar na verdade o correto seria o proprio logo, img, no lugar do h3 */
+a h3:hover, h1:hover {
+  color: #f05454;
+  text-decoration: none;
+}
+
+.icon img:hover, .img-scale-1:hover,
+.img-scale-2:hover, .img-scale-3:hover,
+.img-scale-4:hover, .img-scale-5:hover {
+  opacity: 0.9;
+  transform: translate(-3%, -3%);
+}
+
+
+
+/*faz com que o celular vibre, mas achei de mais implementar no modelo final*/
+/*
+
+.img-scale-1:hover{
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+*/
+
+
+/* *********** Media query CSS-responsivo ************ */
+
+
+@media only screen and (max-width: 1000px) and (min-width: 850px;) {
+
+  .img-scale-2 {
+    height: 295px;
+    padding-right: 50px;
+  }
+
+  .img-scale-3 {
+    height: 270px;
+  }
+
+  p{
+    font-size: 14px;
+  }
+}
+
+
+@media only screen and (max-width: 850px) {
+  header h1 {
+    font-size: 1.2rem;
+  }
+
+  nav a {
+    display: block;
+    padding: 16.5px 8px;
+  }
+
+  .img-scale-1 {
+    height: 458px;
+  }
+
+  .img-scale-2 {
+    height: 270px;
+    padding-right: 40px;
+  }
+
+
+  .img-scale-3 {
+    height: 250px;
+  }
+
+  .img-scale-4 {
+    height: 330px;
+  }
+
+  .img-scale-5 {
+    height: 250px;
+  }
+
+  p{
+    font-size: 13px;
+  }
+}
